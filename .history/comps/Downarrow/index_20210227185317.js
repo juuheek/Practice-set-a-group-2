@@ -1,5 +1,5 @@
 function DownArrowUI(){
-  return `<a href="index2.html" class="arrow down" style='
+  return `<i href="index2.html" class="arrow down" style='
     border: solid black;
     border-width: 0 3px 3px 0;
     padding: 1px; 
@@ -12,8 +12,8 @@ function DownArrowUI(){
     height:7px;
   '>
  
-  </a>
-  <a href="index2.html" class="arrow down" style='
+  </i>
+  <i class="arrow down" style='
     border: solid black;
     border-width: 0 3px 3px 0;
     
@@ -28,7 +28,7 @@ function DownArrowUI(){
     height:7px;
   '>
  
-  </a>`
+  </i>`
 }
 
 // export const DownArrow = DownArrowUI();

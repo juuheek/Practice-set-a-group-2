@@ -13,7 +13,7 @@ function DownArrowUI(){
   '>
  
   </a>
-  <a href="index2.html" class="arrow down" style='
+  <a class="arrow down" style='
     border: solid black;
     border-width: 0 3px 3px 0;
     
