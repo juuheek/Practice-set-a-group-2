@@ -16,6 +16,7 @@ html, body{
   height: 100vh;
   display: flex;
   background-color: #FFBE9D ;
+  
 }
 #buttoncontainer{
   display: flex;
@@ -38,7 +39,8 @@ bottom: 0;
 
 #whitebg{
   display: flex;
-  justify-content: center;
-  align-items: center;
+}
 
+#doctorinfo{
+  display: flex;
 }
