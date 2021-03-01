@@ -44,3 +44,18 @@ bottom: 0;
 #doctorinfo{
   display: flex;
 }
+
+/* min end */
+
+/* glian (sexy guy) start */
+
+#yesbuttoncontainer{
+  display: flex;
+}
+#backarrow{
+  position: fixed;
+  right:95%;
+  bottom:95%;
+  }
+
+  /* glian end */

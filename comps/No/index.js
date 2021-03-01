@@ -21,4 +21,4 @@ function NoButtonUI(){
 NoButtonUI.HandleClick = (el) => {
   el.style.opacity = 0.5;
 }
-// export const NoButton = NoButtonUI();
+//export const NoButton = NoButtonUI();

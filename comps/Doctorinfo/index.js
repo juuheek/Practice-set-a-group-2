@@ -1,8 +1,9 @@
 function DoctorsUI(){
   return `<div style='
         display: flex;
-        flex - direction: row;
-        background - color: rgba(140, 198, 62, 0.43);
+        flex-direction: row;
+        border-radius: 5px;
+        background-color: rgba(140, 198, 62, 0.43);
         width: 368 px;
         height: 80 px;
         left: 19 px;
@@ -46,4 +47,4 @@ function DoctorsUI(){
 </div>` 
 }
 
-// export const Doctors = DoctorsUI();
+//export const Doctors = DoctorsUI();
