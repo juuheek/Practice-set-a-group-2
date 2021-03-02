@@ -18,7 +18,6 @@ html, body{
   background-color: #FFBE9D ;
   
 }
-/* juhee stuff start */
 #buttoncontainer{
   display: flex;
   justify-content: center;
@@ -33,7 +32,7 @@ right:0;
 bottom: 0;
 }
 
-/* juhee stuff end */
+/* juhee stuff */
 
 /* min start */
 
