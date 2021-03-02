@@ -14,7 +14,7 @@ function DoctorsUI(){
         display:inline-flex;
         justify-content: center;
         align-items: center;
-        margin-top: 5px;
+        margin: 5px;
   '>
     <img style='
         border-radius: 50%;
@@ -30,6 +30,7 @@ function DoctorsUI(){
     font-size: 18px;
     color: #26325B ;
     line-height: 30px;
+    
     '>
     Kelty Eating Disorders</div>
 
