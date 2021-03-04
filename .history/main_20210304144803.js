@@ -6,8 +6,7 @@ document.querySelector("#backarrow").innerHTML += BackArrowUI()
 document.querySelector("#buttoncontainer").innerHTML += NoButtonUI()
 document.querySelector("#downarrow").innerHTML += DownArrowUI()
 document.querySelector("#pie1").innerHTML += Pie1UI()
-document.querySelector("#anorexiapie").innerHTML += AnorexiaPieUI()
-document.querySelector("#bulimiapie").innerHTML +=BulimiaPieUI()
+document.querySelector("#pie1").innerHTML += Pie1UI()
 
 //min
 document.querySelector("#whitebg").innerHTML += whiteUI()
