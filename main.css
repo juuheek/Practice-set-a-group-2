@@ -63,4 +63,14 @@ body {
   bottom: 95%;
 }
 
+#woman {
+  display: flex;
+  flex-direction: row;
+}
+
+#man {
+  display: flex;
+  flex-direction: row;
+}
+
 /* glian end */

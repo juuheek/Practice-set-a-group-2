@@ -5,6 +5,7 @@ import {Doctors} from '../comps/Doctorinfo';
 import {YesButton} from '../comps/Yes';
 import { BackArrow } from '../comps/Backarrow';
 import { Pie1 } from '../comps/Pie1';
+import { ManAndWoman } from '../comps/ManAndWoman';
 
 export default{
   title: "My components"
@@ -17,3 +18,4 @@ export const MyDoctors= () => Doctors;
 export const MyYesButton = () => YesButton;
 export const MyBackArrow = () => BackArrow;
 export const MyPie1 = () => Pie1;
+export const MyManAndWoman = () => ManAndWoman;
