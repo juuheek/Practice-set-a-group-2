@@ -5,6 +5,9 @@ import {Doctors} from '../comps/Doctorinfo';
 import {YesButton} from '../comps/Yes';
 import { BackArrow } from '../comps/Backarrow';
 import { Pie1 } from '../comps/Pie1';
+import { Pie1 } from '../comps/Pie1';
+import { MortalityText } from '../comps/Mortaility';
+import { HeaderText } from '../comps/HeaderText';
 
 export default{
   title: "My components"
@@ -17,3 +20,5 @@ export const MyDoctors= () => Doctors;
 export const MyYesButton = () => YesButton;
 export const MyBackArrow = () => BackArrow;
 export const MyPie1 = () => Pie1;
+export const MyMortality = () => MortalityText;
+export const MyHeadText = () => HeaderText;

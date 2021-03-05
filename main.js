@@ -12,4 +12,6 @@ document.querySelector("#bulimiapie").innerHTML +=BulimiaPieUI()
 //min
 document.querySelector("#whitebg").innerHTML += whiteUI()
 document.querySelector("#doctorinfo").innerHTML += DoctorsUI()
+document.querySelector("#mortality").innerHTML += MortalityText()
+document.querySelector("#headertext").innerHTML += HeaderText()
 
