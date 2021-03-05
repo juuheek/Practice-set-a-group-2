@@ -1,9 +1,9 @@
 //glian
 document.querySelector("#yesbuttoncontainer").innerHTML += YesButtonUI()
 document.querySelector("#backarrow").innerHTML += BackArrowUI()
-document.querySelector("#woman").innerHTML += ManAndWomanUI()
-document.querySelector("#man").innerHTML += ManAndWomanUI("10%", "of the cases", "are males", "", "./imgs/man.png")
-
+// document.querySelector("#woman").innerHTML += ManAndWomanUI()
+// document.querySelector("#man").innerHTML += ManAndWomanUI("10%", "of the cases", "are males", "", "./imgs/man.png")
+// there was an error idk why lets figure it out
 //juhee
 document.querySelector("#buttoncontainer").innerHTML += NoButtonUI()
 document.querySelector("#downarrow").innerHTML += DownArrowUI()
