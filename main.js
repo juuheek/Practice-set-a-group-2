@@ -1,3 +1,5 @@
+import { smileItem } from "./comps/Smile/smileitem"
+
 //glian
 document.querySelector("#yesbuttoncontainer").innerHTML += YesButtonUI()
 document.querySelector("#backarrow").innerHTML += BackArrowUI()
@@ -17,3 +19,7 @@ document.querySelector("#doctorinfo").innerHTML += DoctorsUI()
 document.querySelector("#mortality").innerHTML += MortalityText()
 document.querySelector("#headertext").innerHTML += HeaderText()
 
+//Sofia
+document.querySelector('#pinkButton').innerHTML += pinkButton()
+document.querySelector('#backbutton').innerHTML += backButton()
+document.querySelector('#smileitem').innerHTML += smileItem()

@@ -8,7 +8,9 @@ import { Pie1 } from '../comps/Pie1';
 import { MortalityText } from '../comps/Mortaility';
 import { HeaderText } from '../comps/HeaderText';
 import { ManAndWoman } from '../comps/ManAndWoman';
-
+import {smileItem} from '../comps/Smile/';
+import {pinkButton} from '../comps/Pinkbutton';
+import {backButton} from '../comps/Backbutton';
 export default{
   title: "My components"
 }
@@ -23,3 +25,6 @@ export const MyPie1 = () => Pie1;
 export const MyMortality = () => MortalityText;
 export const MyHeadText = () => HeaderText;
 export const MyManAndWoman = () => ManAndWoman;
+export const smileItem = () => smileItem; 
+export const pinkButton = () => pinkButton;
+export const backButton = () => backButton; 
