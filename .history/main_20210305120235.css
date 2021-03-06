@@ -1,0 +1,66 @@
+html,
+body {
+  margin: 0;
+}
+
+#main {
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  background-color: #C7EAFF;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#main2 {
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  background-color: #FFBE9D;
+
+}
+
+/* juhee stuff start */
+#buttoncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#downarrow {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+/* juhee stuff end */
+
+/* min start */
+
+#whitebg {
+  display: flex;
+}
+
+#doctorinfo {
+  display: flex;
+}
+
+/* min end */
+
+/* glian (sexy guy) start */
+
+#yesbuttoncontainer {
+  display: flex;
+}
+
+#backarrow {
+  position: fixed;
+  right: 95%;
+  bottom: 95%;
+}
+
+/* glian end */

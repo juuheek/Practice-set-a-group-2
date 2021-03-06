@@ -1,4 +1,4 @@
-
+import { smileItem } from "./comps/Smile/smileitem"
 
 //glian
 document.querySelector("#yesbuttoncontainer").innerHTML += YesButtonUI()
