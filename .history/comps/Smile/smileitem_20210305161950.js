@@ -1,4 +1,4 @@
-function smileItem (){
+function smileItemUI (){
 
     return `
     

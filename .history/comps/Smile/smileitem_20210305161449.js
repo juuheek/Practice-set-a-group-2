@@ -3,7 +3,7 @@ function smileItem (){
     return `
     
     <div>
-        <img src = "./imgs/smileicon.svg">
+        <img src = "./imgs/smileicon.svg"
     </div>
     
     `

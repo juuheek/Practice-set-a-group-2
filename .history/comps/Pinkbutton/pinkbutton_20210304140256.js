@@ -28,4 +28,4 @@ function pinkButton () {
 `
 }
 
-// export const Button = pinkButton(); 
+export const Button = pinkButton(); 

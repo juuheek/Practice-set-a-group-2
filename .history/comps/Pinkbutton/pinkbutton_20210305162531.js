@@ -1,4 +1,4 @@
-function pinkButton () {
+function pinkButtonUI () {
 	return `
     <div 
     style='
