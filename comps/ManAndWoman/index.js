@@ -12,7 +12,13 @@ function ManAndWomanUI(ninety="90%", of="of the", ca="cases are", fem="females",
     '
     >${ninety}</span> <br> ${of} <br> ${ca} <br> ${fem} </h1>
 
-    <img src="${img}"/>
+    <img src="${img}"
+    style=
+    '
+    width: 120px;
+    height: 250px;
+    '
+    />
     `
 }
 
