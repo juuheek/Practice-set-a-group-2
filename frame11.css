@@ -10,7 +10,7 @@ body {
     display: flex;
     min-width: 414px;
     max-width: 414px;
-    min-height: 2525px;
+    min-height: 2475px;
     background-color: #FFD697;
     flex-direction: column;
 }

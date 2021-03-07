@@ -1,6 +1,6 @@
 document.querySelector("#backarrow").innerHTML += BackArrowUI()
 document.querySelector(".downarrow").innerHTML += DownArrowUI()
-document.querySelector("#whitebg").innerHTML += whiteUI()
+document.querySelector("#whitebg").innerHTML += whiteUI(" • Stressful transitions or life changes <br> • History of abuse or trauma <br> • Negative body image <br> • Poor self-esteem", lineheight="2")
 document.querySelector("#bullimiapie").innerHTML +=BulimiaPieUI()
 document.querySelector(".downarrow1").innerHTML += DownArrowUI()
 document.querySelector("#man").innerHTML += ManAndWomanUI("10%", "of the cases", "are males", "", "./imgs/man.png")
