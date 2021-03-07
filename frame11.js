@@ -1,0 +1,8 @@
+document.querySelector("#backarrow").innerHTML += BackArrowUI()
+document.querySelector(".downarrow").innerHTML += DownArrowUI()
+document.querySelector("#whitebg").innerHTML += whiteUI()
+document.querySelector("#bullimiapie").innerHTML +=BulimiaPieUI()
+document.querySelector(".downarrow1").innerHTML += DownArrowUI()
+document.querySelector("#man").innerHTML += ManAndWomanUI("10%", "of the cases", "are males", "", "./imgs/man.png")
+document.querySelector('#backbutton').innerHTML += backButton()
+document.querySelector('#seekhelp').innerHTML += backButton("SEEK HELP")
