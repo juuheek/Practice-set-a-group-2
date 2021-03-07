@@ -1,0 +1,18 @@
+html,
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  width: 414px;
+  height: 896px;
+  display: flex;
+  background-color: #FFBE9D;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}

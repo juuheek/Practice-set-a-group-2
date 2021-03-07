@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  width: 414px;
+  height: 896px;
+  display: flex;
+  background-color: #FFBE9D;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+}
+
+#heading {
+  margin-top: 134px;
+}
+
+#whitebg {
+  margin-top: 34px;
+}
+
+#buttoncontainer {
+  margin-top: 34px;
+}
+
+#backarrow {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
