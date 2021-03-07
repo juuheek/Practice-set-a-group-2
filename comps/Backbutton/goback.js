@@ -1,4 +1,4 @@
-function backButton () {
+function backButton (back="GO BACK") {
 	return `
 
     <div style='
@@ -20,9 +20,9 @@ function backButton () {
     font-size: 18px;
 
     '
-    type="button"> GO BACK </button>
+    type="button"> ${back} </button>
     </div>
 `
 }
 
-export const Button2 = backButton(); 
+//export const Button2 = backButton(); 
