@@ -4,7 +4,7 @@ function BackArrowUI(backbuttonLink){
     '
     display:flex;
     '>
-    <a href="index2.html" class="arrow down" style='
+    <a href="${backbuttonLink}" class="arrow down" style='
       border: solid #26325B;
       border-width: 0 5px 5px 0;
       padding: 1px; 
