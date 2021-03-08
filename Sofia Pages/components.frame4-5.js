@@ -1,0 +1,1 @@
+document.querySelector(".continue").innerHTML +=pinkButton();

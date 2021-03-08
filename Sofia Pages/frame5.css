@@ -17,33 +17,22 @@ body, html {
     background: #C7EAFF  url("../imgs/100icon.png") no-repeat scroll 100% 0%;
 }
    
-img {
-
-    width: 343px;
-    height: 343px;
-    left: -79px;
-    top: -108px;
-
-}
-
 .wrong {
 
-    display: block;
     justify-content: center;
     align-items: center;
 
 }
 
 p {
+
     font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     text-align: center;
     color: #26325B;
-
     margin: 50px;
-
 
 }
 
@@ -52,4 +41,10 @@ p {
     color: #E67571;
     width: 375px;
     margin: 30px;
+}
+
+.buttons {
+
+    margin-top: 50px ;
+    margin-left: 75px;
 }

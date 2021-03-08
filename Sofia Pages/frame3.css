@@ -16,18 +16,12 @@ body, html {
     align-items: center;
     background-image: url("../imgs/Newsicon.svg");
     background-repeat: no-repeat;
-}
-   
-img {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
    
 .question1 {
-    
-    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
@@ -38,11 +32,16 @@ p {
     text-align: center;
     color: #26325B;
     width: 256px;
-    margin: 0px;
+    margin-top: 30px;
 }
 
 .number {
-
     font-size: 50px;
     color: #E67571;
+}
+
+.buttons {
+
+    margin-top: 50px ;
+
 }
