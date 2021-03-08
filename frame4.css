@@ -6,10 +6,11 @@ html {
 
 }
 
-.wrapper {
-
-    width: 415px;
-    height: 895px;
+.main {
+    min-width: 415px;
+    max-width: 415px;
+    min-height: 895px;
+    background-color: #C7EAFF;
     display: flex;
     justify-content: center;
     align-items: center;
