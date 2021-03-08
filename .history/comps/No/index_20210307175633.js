@@ -1,10 +1,5 @@
-function NoButtonUI(text="No"){
-  return `<a href="Frame16.html" style="
-
-text-decoration:none;
-color:black;
-
-  ">
+function NoButtonUI(text="No", src=""){
+  return `<a href="${src}">
   
   <div style='
   background-color:#FFF;

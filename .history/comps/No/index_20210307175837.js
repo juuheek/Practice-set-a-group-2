@@ -1,8 +1,11 @@
 function NoButtonUI(text="No"){
   return `<a href="Frame16.html" style="
 
-text-decoration:none;
-color:black;
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
 
   ">
   

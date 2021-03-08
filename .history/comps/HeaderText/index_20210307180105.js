@@ -7,14 +7,12 @@ function HeaderText(text){
   '>
 
   <p style='
-    font-size: 36px;
+    font-size: 38px;
     line-height: 38px;
     text-align: center;
     color: #26325B;
     font-weight: 800;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-
-
+}
   
   '>
   ${text}
