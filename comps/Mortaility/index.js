@@ -3,13 +3,15 @@ function MortalityText(text1, text2, text3){
   <div style='
     width: 293px;
     height: 187px;
+    
   
   '>
 
     <div style='
     font-weight: bold;
     font-size: 30px;
-    line-height: 39px;  
+    line-height: 39px;
+    
 
     '>
     ${text1} </div>
