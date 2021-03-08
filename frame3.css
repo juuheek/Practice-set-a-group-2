@@ -12,7 +12,7 @@ html {
     background-color: #C7EAFF;
     min-width: 415px;
     max-width: 415px;
-    max-height: 800px;
+    max-height: 896px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,6 @@ img {
     
     margin-right: 125px;
 }
-<<<<<<< HEAD
    
 .number {
     margin-left: 100px;
@@ -56,16 +55,11 @@ img {
     position: relative;
     bottom: 250px;
 }
-.question1 {
-    display: flex;
-    flex-direction: column ;
-=======
 
 .question1 {
     display: flex;
     margin-bottom: 100px;
     flex-direction: column;
->>>>>>> 450add72f1b287946bd32f8b558eb8a795239fae
 }
 
 p {
