@@ -1,24 +1,32 @@
 
 body,
 html {
-    width: 100vw;
-    height: 100vh;
-    background-color: lightgrey;
+    margin: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.wrapper {
+.main {
     background-color: #C7EAFF;
-    width: 415px;
-    height: 895px;
+    min-width: 416px;
+    max-width: 416px;
+    height: 896px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.riseup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.learnmore {
+    margin-top: 100px;
+}
 
 p {
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;

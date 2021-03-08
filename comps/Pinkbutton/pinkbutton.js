@@ -1,4 +1,4 @@
-function pinkButton (buttontext, website) {
+function pinkButton (buttontext="Learn More", website="./frame2.html") {
 	return `
     <div 
     
