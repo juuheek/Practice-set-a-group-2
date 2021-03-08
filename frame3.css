@@ -24,10 +24,15 @@ img {
     justify-content: center;
     align-items: center;
 }
+
+.start {
+    justify-content: flex-start;
+}
    
 .question1 {
-    
+    display: flex;
     margin-bottom: 100px;
+    flex-direction: column ;
 }
 
 p {
