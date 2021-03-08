@@ -2,5 +2,5 @@ document.querySelector("#heading").innerHTML += HeaderText("Have you experienced
 document.querySelector("#whitebg").innerHTML += whiteUI()
 document.querySelector("#yesbutton").innerHTML += NoButtonUI("Yes")
 document.querySelector("#nobutton").innerHTML += NoButtonUI()
-document.querySelector("#backarrow").innerHTML += BackArrowUI("Frame10.html")
+document.querySelector("#backarrow").innerHTML += BackArrowUI()
 document.querySelector('#smile').innerHTML += smileItem()

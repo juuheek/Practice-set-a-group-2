@@ -1,12 +1,5 @@
 function NoButtonUI(text="No"){
-  return `<a href="Frame16.html" style="
-
-text-decoration:none;
-color:black;
-
-  ">
-  
-  <div style='
+  return `<div style='
   background-color:#FFF;
   border: black solid 1px;
   border-radius:15px 15px;
@@ -23,9 +16,7 @@ color:black;
   onclick='NoButtonUI.HandleClick(this)'
   >
   ${text}
-  </div>
-  </a>
-  `
+  </div>`
 }
 
 NoButtonUI.HandleClick = (el) => {

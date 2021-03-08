@@ -1,10 +1,5 @@
 function NoButtonUI(text="No"){
-  return `<a href="Frame16.html" style="
-
-text-decoration:none;
-color:black;
-
-  ">
+  return `<a href="Frame16.html">
   
   <div style='
   background-color:#FFF;
