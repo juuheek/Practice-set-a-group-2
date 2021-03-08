@@ -7,11 +7,6 @@ html {
     align-items: center;
 }
 
-img {
-    position: absolute;
-
-}
-
 #main {
 
     width: 414px;
@@ -27,8 +22,4 @@ img {
 
 #heading {}
 
-#backarrow {
-    position: absolute;
-    left: 15px;
-    bottom: 130px;
-}
+#backarrow {}

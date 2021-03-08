@@ -9,7 +9,7 @@ html {
 
 img {
     position: absolute;
-
+    left: 10px;
 }
 
 #main {
