@@ -1,4 +1,4 @@
-function pinkButton (buttontext="Learn More", website="./frame2.html", margin) {
+function pinkButton (buttontext="Learn More", website="./frame2.html") {
 	return `
     <div 
     
@@ -6,7 +6,7 @@ function pinkButton (buttontext="Learn More", website="./frame2.html", margin) {
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-bottom:${margin};
+    margin-bottom:10px;
     '
     
 
