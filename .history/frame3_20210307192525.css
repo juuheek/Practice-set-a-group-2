@@ -75,7 +75,6 @@ p {
 #backarrow {
     display: flex;
     position: relative;
-    right: 190px;
-    bottom: 315px;
-
+    bottom: 200px;
+    right: 150px;
 }
