@@ -22,11 +22,11 @@ function pinkButton (buttontext, website) {
     text-align: center;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 18px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     color: #FFF;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 18px;
     border: #FFF;
     '
