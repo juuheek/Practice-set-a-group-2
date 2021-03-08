@@ -6,32 +6,26 @@ html {
 
 }
 
-.wrapper {
-
-    width: 415px;
-    height: 895px;
+.main {
+    min-width: 415px;
+    max-width: 415px;
+    min-height: 895px;
+    background-color: #C7EAFF;
     display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-img {
-
-    width: 343px;
-    height: 343px;
-    left: -79px;
-    top: -108px;
-
+    flex-direction: column;
 }
 
 .wrong {
-
-    display: block;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
 
 }
+
+.img {
+    display: flex;
+}
+
 
 p {
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -52,3 +46,10 @@ p {
     width: 375px;
     margin: 30px;
 }
+
+#backarrow {
+    position: relative;
+    top: 90px;
+    left: 30px;
+}
+
