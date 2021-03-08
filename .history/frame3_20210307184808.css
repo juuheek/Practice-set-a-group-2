@@ -1,0 +1,53 @@
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: #C7EAFF;
+    width: 415px;
+    height: 895px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../imgs/Newsicon.svg");
+    background-repeat: no-repeat;
+}
+   
+img {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start {
+    justify-content: flex-start;
+}
+   
+.question1 {
+    display: flex;
+    margin-bottom: 100px;
+    flex-direction: column ;
+}
+
+p {
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: #26325B;
+    width: 256px;
+    margin: 0px;
+}
+
+.number {
+
+    font-size: 50px;
+    color: #E67571;
+}
