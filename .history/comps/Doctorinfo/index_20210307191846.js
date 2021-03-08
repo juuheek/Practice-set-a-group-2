@@ -9,7 +9,7 @@ function DoctorsUI(src="https://placekitten.com/50/50", doctorheading="Kelty Eat
         left: 19 px;
         top: 595 px;
         margin-bottom: 30px;
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande";
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", 
   '>
   <div style='
         height: 70px;   
