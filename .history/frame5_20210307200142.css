@@ -1,0 +1,34 @@
+body,
+html {
+
+    background-color: lightgrey;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+img {
+    position: absolute;
+
+}
+
+#main {
+
+    width: 414px;
+    height: 896px;
+    display: flex;
+    background-color: #C7EAFF;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#heading {}
+
+#backarrow {
+    position: absolute;
+    left: 15px;
+    bottom: 130px;
+}
