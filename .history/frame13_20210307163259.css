@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  width: 414px;
+  height: 896px;
+  display: flex;
+  background-color: #FFBE9D;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#heading {
+  /* margin-top: 134px; */
+  margin-bottom: 30px;
+}
+
+#whitebg {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#buttoncontainer {
+  margin-top: 34px;
+}
+
+#bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+#backarrow {
+
+  margin-top: 100px;
+}
+
+#smile {
+  /* margin-bottom: 300px; */
+}

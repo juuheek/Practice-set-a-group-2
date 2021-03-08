@@ -1,0 +1,6 @@
+document.querySelector("#heading").innerHTML += HeaderText("Helpline")
+document.querySelector("#whitebg").innerHTML += whiteUI("If you think you suffer from eating disorder, you can ask for help here.")
+document.querySelector("#yesbutton").innerHTML += NoButtonUI("Yes")
+document.querySelector("#nobutton").innerHTML += NoButtonUI()
+document.querySelector("#backarrow").innerHTML += BackArrowUI()
+document.querySelector('#smile').innerHTML += smileItem()

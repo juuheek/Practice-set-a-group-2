@@ -1,0 +1,8 @@
+document.querySelector("#heading").innerHTML += HeaderText("Helpline")
+document.querySelector("#doctor").innerHTML += DoctorsUI()
+document.querySelector("#doctor").innerHTML += DoctorsUI()
+document.querySelector("#doctor").innerHTML += DoctorsUI()
+document.querySelector("#yesbutton").innerHTML += NoButtonUI("Yes")
+document.querySelector("#nobutton").innerHTML += NoButtonUI()
+document.querySelector("#backarrow").innerHTML += BackArrowUI()
+document.querySelector('#smile').innerHTML += smileItem()

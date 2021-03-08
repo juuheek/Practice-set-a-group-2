@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  width: 414px;
+  height: 896px;
+  display: flex;
+  background-color: #FFC974;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+}
+
+#heading {
+  /* margin-top: 134px; */
+}
+
+#white {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 380px;
+  min-height: 570px;
+  border-radius: 10px;
+}
+
+#text {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+#pinkbutton {
+  margin-top: 20px;
+}
+
+#backarrow {
+  /* margin-right: 370px;
+  margin-top: 100px; */
+}

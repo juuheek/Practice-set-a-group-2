@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  width: 414px;
+  height: 896px;
+  display: flex;
+  background-color: #FFC974;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+}
+
+#heading {
+  margin-top: 34px;
+}
+
+#white {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 380px;
+  min-height: 570px;
+  border-radius: 10px;
+}
+
+#text {
+  margin-left: 25px;
+  margin-bottom: 30px;
+  color: #626262;
+  font-size: 20px;
+  font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+}
+
+#pinkbutton {
+  margin-top: 20px;
+  z-index: 100;
+}
+
+#phone {
+  z-index: -100;
+}
