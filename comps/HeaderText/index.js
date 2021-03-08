@@ -12,6 +12,7 @@ function HeaderText(text){
     text-align: center;
     color: #26325B;
     font-weight: 800;
+    font-family:'GmarketSansMedium';
 }
   
   '>
