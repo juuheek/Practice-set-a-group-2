@@ -67,8 +67,8 @@
 
 #frame6header1 {
   position: absolute;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande";
-  Font-style: Bold;
+  font-family:
+    Font-style: Bold;
   Font-size: 36px;
   Line-height: 36px;
   /* /* Align: Left; */
@@ -82,7 +82,7 @@
 
 #frame6header2 {
   position: absolute;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande";
+  font-family: Gmarket Sans;
   Font-style: Bold;
   Font-size: 36px;
   Line-height: 36px;
