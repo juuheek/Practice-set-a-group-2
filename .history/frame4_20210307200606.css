@@ -1,0 +1,54 @@
+body,
+html {
+    margin: 0;
+    background-color: lightgrey;
+    display: flex;
+
+}
+
+.main {
+    min-width: 415px;
+    max-width: 415px;
+    min-height: 895px;
+    background-color: #C7EAFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrong {
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+.img {
+    display: flex;
+}
+
+
+p {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: #26325B;
+
+    margin: 50px;
+
+
+}
+
+.answer {
+    font-size: 40px;
+    color: #E67571;
+    width: 375px;
+    margin: 30px;
+}
+
+#backarrow {
+    position: relative;
+    top: 150px;
+    left: 10px;
+}
