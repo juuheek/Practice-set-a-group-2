@@ -1,0 +1,172 @@
+
+
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#main {
+  width: 414px;
+  /* height: 100vh; */
+  display: flex;
+  background-color: #C7EAFF;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#main2 {
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  background-color: #FFBE9D;
+
+}
+
+
+/* min start */
+
+#whitebg {
+  display: flex;
+}
+
+#doctorinfo {
+  display: flex;
+}
+
+.frame{
+  background-color: #C7EAFF ;
+  width: 414px;
+  height: 896px;
+  overflow: ;
+}
+
+#question{
+  position: absolute;
+  width: 84.68px;
+  height: 151px;
+  left: 305px;
+  top: 27px;
+
+  
+}
+
+#canada {
+  position: absolute;
+  top: 458px;
+
+}
+
+.center{
+  display:flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+#frame6header1{
+  position: absolute;
+  font-family: Gmarket Sans;
+  Font-style: Bold;
+  Font-size: 36px;
+  Line-height: 36px;
+  /* /* Align: Left; */
+  Vertical-align: Top; 
+  left: 43px;
+  top: 226px;
+  width: 324px;
+  height: 96px;
+
+}
+
+#frame6header2{
+  position: absolute;
+  font-family: Gmarket Sans;
+  Font-style: Bold;
+  Font-size: 36px;
+  Line-height: 36px;
+  /* /* Align: Left; */
+  Vertical-align: Top; 
+  left: 50px;
+  top: 440px;
+  width: 324px;
+  height: 96px;
+
+}
+
+#frame6buttons{
+  position: absolute;
+  left: 50px;
+  top: 350px;
+}
+#edmortality{
+  position: absolute;
+  left: 30px;
+  top: 264px;
+  font-family:'GmarketSansMedium';
+  z-index: 2;
+
+}
+
+#frame7buttons{
+  position: absolute;
+  left: 49px;
+  top: 763px;
+
+}
+
+#mortalitypie{
+  position: absolute;
+  left: 234px;
+  top: 370px;
+  z-index: 1;
+}
+
+#backbutton{
+  position: absolute;
+  left: 20px;
+  top: 850px;
+}
+
+#xmark{
+  position: absolute;
+  left: 109px;
+  /* top: -024px; */
+}
+
+#edclose{
+  position: absolute;
+  left: 30px;
+  top: 264px;
+  font-family:'GmarketSansMedium';
+  z-index: 2;
+}
+
+#frame9header{
+  position: absolute;
+  left: 23px;
+  top: 122px;
+  font-family: 'GmarketSansMedium';
+  font-weight: bold;
+}
+
+#frame9buttons{
+  position: absolute;
+width: 315px;
+height: 54px;
+left: 49px;
+top: 347px;
+font-family: 'GmarketSansMedium';
+
+}
+
+#classroom{
+  position: absolute;
+  left: 111px;
+  top: 573px;
+
+}
+/* min end */
