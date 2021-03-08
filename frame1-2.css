@@ -1,0 +1,29 @@
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: #C7EAFF;
+    width: 415px;
+    height: 895px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+p {
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #E79A74;
+    width: 256px;
+}
