@@ -1,18 +1,22 @@
 body,
 html {
-    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgrey;
     display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .main {
     background-color: #C7EAFF;
-    min-width: 416px;
-    max-width: 416px;
-    height: 896px;
+    min-width: 415px;
+    max-width: 415px;
+    max-height: 896px;
     display: flex;
-    flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    flex-direction: column;
 }
 
 img {
@@ -52,7 +56,7 @@ img {
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 330px;
+    bottom: 250px;
 }
 
 .question1 {
@@ -75,7 +79,6 @@ p {
 #backarrow {
     display: flex;
     position: relative;
-    right: 190px;
-    bottom: 315px;
-
+    bottom: 200px;
+    right: 150px;
 }

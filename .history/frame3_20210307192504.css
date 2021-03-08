@@ -52,7 +52,7 @@ img {
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 330px;
+    bottom: 350px;
 }
 
 .question1 {
@@ -75,7 +75,6 @@ p {
 #backarrow {
     display: flex;
     position: relative;
-    right: 190px;
-    bottom: 315px;
-
+    bottom: 200px;
+    right: 150px;
 }
