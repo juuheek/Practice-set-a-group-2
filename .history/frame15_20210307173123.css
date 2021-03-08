@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
 }
 
@@ -10,7 +10,7 @@ body {
   width: 414px;
   height: 896px;
   display: flex;
-  background-color: #FFD697;
+  background-color: #FFA29E;
   flex-direction: column;
   justify-content: center;
   align-items: center;

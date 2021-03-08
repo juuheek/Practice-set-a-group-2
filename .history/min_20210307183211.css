@@ -54,7 +54,7 @@
 
 #canada {
   position: absolute;
-  top: 465px;
+  top: 488px;
 
 }
 
@@ -104,7 +104,7 @@
 #edmortality {
   position: absolute;
   left: 30px;
-  top: 264px;
+  top: 234px;
   font-family: 'GmarketSansMedium';
   z-index: 2;
 
@@ -127,7 +127,7 @@
 #backbutton {
   position: absolute;
   left: 20px;
-  top: 880px;
+  top: 900px;
 }
 
 #xmark {
