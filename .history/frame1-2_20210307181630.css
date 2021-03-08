@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-body, html {
-    margin: 0;
-=======
 body,
 html {
     width: 100vw;
     height: 100vh;
->>>>>>> f466b30593834032ab9a83a289a7541318d471fa
     background-color: lightgrey;
     display: flex;
     justify-content: center;
@@ -19,8 +14,8 @@ html {
     height: 895px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 

@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 body, html {
-    margin: 0;
-=======
-body,
-html {
     width: 100vw;
     height: 100vh;
->>>>>>> f466b30593834032ab9a83a289a7541318d471fa
     background-color: lightgrey;
     display: flex;
     justify-content: center;
@@ -18,14 +12,13 @@ html {
     width: 415px;
     height: 895px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+   
 
 p {
-    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
