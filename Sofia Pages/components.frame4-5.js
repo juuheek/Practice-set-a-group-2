@@ -1,1 +1,1 @@
-document.querySelector(".continue").innerHTML +=pinkButton();
+document.querySelector(".continue").innerHTML +=pinkButton("Continue");
