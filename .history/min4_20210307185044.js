@@ -5,4 +5,4 @@ document.querySelector("#frame9header").innerHTML += HeaderText("Learn about som
 document.querySelector("#frame9buttons").innerHTML += pinkButton("ANOREXIA","frame10.html","10px");
 document.querySelector("#frame9buttons").innerHTML += pinkButton("BULIMIA","frame11.html","10px");
 document.querySelector("#frame9buttons").innerHTML += pinkButton("OTHERS","frame12.html","10px");
-document.querySelector("#backbutton").innerHTML += BackArrowUI("frame6.html");
+document.querySelector("#backbutton").innerHTML += BackArrowUI("frame6.html","","10px");
