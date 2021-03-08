@@ -1,0 +1,5 @@
+document.querySelector("#backarrow").innerHTML += BackArrowUI()
+document.querySelector(".downarrow").innerHTML += DownArrowUI()
+document.querySelector(".downarrow1").innerHTML += DownArrowUI()
+document.querySelector('#backbutton').innerHTML += backButton()
+document.querySelector('#seekhelp').innerHTML += backButton("SEEK HELP")
