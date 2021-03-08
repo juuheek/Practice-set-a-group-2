@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     width: 100vw;
     height: 100vh;
     background-color: lightgrey;
@@ -17,7 +18,7 @@ body, html {
     align-items: center;
     flex-direction: column;
 }
-   
+
 img {
 
     display: flex;
@@ -37,6 +38,7 @@ img {
     
     margin-right: 125px;
 }
+<<<<<<< HEAD
    
 .number {
     margin-left: 100px;
@@ -57,10 +59,17 @@ img {
 .question1 {
     display: flex;
     flex-direction: column ;
+=======
+
+.question1 {
+    display: flex;
+    margin-bottom: 100px;
+    flex-direction: column;
+>>>>>>> 450add72f1b287946bd32f8b558eb8a795239fae
 }
 
 p {
-    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;

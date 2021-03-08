@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    margin: 0;
+    display: flex;
+    min-width: 414px;
+    max-width: 414px;
+    min-height: 2525px;
+    background-color: #FFA29E;
+    flex-direction: column;
+}
+
+#backarrow {
+    margin: 20px;
+}
+
+
+h1 {
+    margin: 0 0 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #26325B;
+}
+h2 {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #26325B;
+}
+
+h6 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.binge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cartoon { 
+    margin-top: 80px;
+    width: 184px;
+    height: 200px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.margin {
+    margin-right: 150px;
+}
+
+.margin2 {
+    margin-right: 50px;
+}
+
+.marginup {
+    margin-top: 100px;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #26325B;
+    font-size: 23px;
+    margin: 0 82px 0 82px;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 292px;
+}
+
+.downarrow, .downarrow1 {
+    margin-top: 30px;
+}
+
+#backbutton {
+    margin: 10px;
+}
+
+#buttons {
+    position: relative;
+    top: 100px;
+}
+
+#canada {
+    position: relative;
+    top: 125px;
+    left: 125px;
+}
