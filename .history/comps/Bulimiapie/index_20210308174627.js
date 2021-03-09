@@ -2,6 +2,7 @@
 function BulimiaPieUI(){
   return `
   <div style="
+  animation-iteration-count: 2;
   display:inline-flex;
   justify-content: center;
   align-items:center;

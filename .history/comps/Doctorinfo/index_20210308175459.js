@@ -1,6 +1,13 @@
-function DoctorsUI(src="./imgs/doctor1.jpg", doctorheading="Kelty Eating Disorders",location="4500 Oak Street, Vancouver, BC V6H 3N1", bgcolor="rgba(140, 198, 62, 0.43)"){
+function DoctorsUI(src="https://placekitten.com/50/50", doctorheading="Kelty Eating Disorders",location="4500 Oak Street, Vancouver, BC V6H 3N1", bgcolor="rgba(140, 198, 62, 0.43)"){
   return `<div style='
-    
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
         display: flex;
         flex-direction: row;
         border-radius: 5px;
@@ -20,11 +27,8 @@ function DoctorsUI(src="./imgs/doctor1.jpg", doctorheading="Kelty Eating Disorde
         margin: 5px;
   '>
     <img style='
-    width:60px;
-    height:60px;
         border-radius: 50%;
         height: 100%;
-      
     'src="${src}" />
   </div>
   
