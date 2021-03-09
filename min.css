@@ -175,4 +175,18 @@ html, body{
 
 }
 
+.slide {
+  position: relative;
+  right: 414px;
+  width: 414px;
+  animation: slide 1.5s forwards;
+  animation-delay: 0s;
+}
+
+@keyframes slide {
+  100% {
+      right: 0;
+  }
+}
+
 /* min end */
