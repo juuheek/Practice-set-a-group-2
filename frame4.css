@@ -6,8 +6,8 @@ html {
 }
 
 .main {
-    min-width: 415px;
-    max-width: 415px;
+    min-width: 414px;
+    max-width: 414px;
     min-height: 896px;
     background-color: #C7EAFF;
     display: flex;
