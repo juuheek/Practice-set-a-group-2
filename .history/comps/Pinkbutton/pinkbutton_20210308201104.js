@@ -32,7 +32,7 @@ function pinkButton (buttontext="Learn More", website="./frame2.html", margin) {
     font-size: 20px;
     line-height: 18px;
     border: #FFF;
-    transition: opacity 2s;
+    transition: width 2s;
     opacity:1;
     '
     onmouseover='pinkButton.HandleClick(this)'

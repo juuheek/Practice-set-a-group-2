@@ -41,7 +41,7 @@ function pinkButton (buttontext="Learn More", website="./frame2.html", margin) {
 `
 }
 pinkButton.HandleClick = (el) => {
-    el.style.opacity = 0.5;
+    // el.style.opacity = 0.5;
     el.style.width= 415;
     el.style.height= 64;
   
