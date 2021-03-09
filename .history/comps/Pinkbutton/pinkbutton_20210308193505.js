@@ -4,12 +4,23 @@ function pinkButton (buttontext="Learn More", website="./frame2.html", margin) {
     
     style='
 
+    div {
+        position: relative;
+        right: 414px;
+        width: 414px;
+        animation: slide 1.5s forwards;
+        animation-delay: 0s;
+    }
     
+    @keyframes div {
+        100% {
+            right: 0;
+        }
+    }
     justify-content: center;
     align-items: center;
     display: flex;
     margin-bottom:${margin};
-    
     '
     
 
@@ -33,16 +44,10 @@ function pinkButton (buttontext="Learn More", website="./frame2.html", margin) {
     font-size: 20px;
     line-height: 18px;
     border: #FFF;
-    transition: opacity 2s;
-    opacity:1;
     '
-    onmouseover='pinkButton.HandleClick(this)'
     type="button">${buttontext}</button></a>
     </div>
 `
 }
-pinkButton.HandleClick = (el) => {
-    el.style.opacity = 0.5;
-  
-}
+
 // export const Button = pinkButton(); 

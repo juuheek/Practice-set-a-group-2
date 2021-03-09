@@ -13,6 +13,8 @@ body {
     min-height: 2750px;
     background-color: #FFA29E;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #backarrow {
@@ -155,8 +157,8 @@ p {
 
 .slide {
     position: relative;
-    right: 414px;
-    width: 414px;
+    right: 375px;
+    width: 375px;
     animation: slide 1.5s forwards;
     animation-delay: 0s;
 }

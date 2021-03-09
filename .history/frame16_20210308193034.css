@@ -17,7 +17,10 @@ body {
 
 }
 
-
+img {
+  position: relative;
+  bottom: 275px;
+}
 
 #heading {
   margin-top: 34px;
