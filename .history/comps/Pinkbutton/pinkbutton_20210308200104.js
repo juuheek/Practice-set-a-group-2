@@ -9,7 +9,6 @@ function pinkButton (buttontext="Learn More", website="./frame2.html", margin) {
     align-items: center;
     display: flex;
     margin-bottom:${margin};
-    
     '
     
 
@@ -43,6 +42,5 @@ function pinkButton (buttontext="Learn More", website="./frame2.html", margin) {
 }
 pinkButton.HandleClick = (el) => {
     el.style.opacity = 0.5;
-  
 }
 // export const Button = pinkButton(); 

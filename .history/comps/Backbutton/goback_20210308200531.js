@@ -22,18 +22,18 @@ function backButton (text="GO BACK", src) {
     color: #FFF;
     font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
-    transtion:opacity 1s;
-    opacity:1;
+    // transtion:opacity 1s;
+    // opacity:1;
 
     '
-    onmouseover="backButton.HandleClick(this)"
+    // onmouseover="backButton.HandleClick(this)"
     type="button"> ${text} </button>
     </div>
     </a>
 `
 }
-backButton.HandleClick = (el) =>{
-    el.style.opacity = 0.5;
-}
+// backButton.HandleClick = (el) =>{
+//     el.style.opacity = 0.5;
+// }
 
 // export const Button2 = backButton(); 
