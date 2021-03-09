@@ -6,8 +6,8 @@ body {
 #main {
     margin: 0;
     display: flex;
-    min-width: 414px;
-    max-width: 414px;
+    min-width: 375px;
+    max-width: 375px;
     min-height: 2525px;
     background-color: #FFBE9D;
     flex-direction: column;
