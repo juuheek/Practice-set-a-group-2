@@ -112,7 +112,7 @@ html, body{
   position: absolute;
   left: 30px;
   top: 264px;
-  font-family: 'GmarketSansMedium';
+  color: #26325B;
   z-index: 2;
 
 }
@@ -148,7 +148,7 @@ html, body{
   position: absolute;
   left: 30px;
   top: 264px;
-  font-family: 'GmarketSansMedium';
+  color: #26325B;
   z-index: 2;
 }
 
@@ -156,7 +156,7 @@ html, body{
   position: absolute;
   left: 23px;
   top: 122px;
-  font-family: 'GmarketSansMedium';
+  /* font-family: 'GmarketSansMedium'; */
   font-weight: bold;
 }
 
@@ -166,7 +166,6 @@ html, body{
   height: 54px;
   left: 49px;
   top: 347px;
-  font-family: 'GmarketSansMedium';
 
 }
 
