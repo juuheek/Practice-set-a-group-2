@@ -30,7 +30,7 @@ html {
 
 
 #backarrow {
-    position: absolute;
-    left: 15px;
-    bottom: 550px;
+    position: relative;
+    right: 25px;
+    top: 35px;
 }
