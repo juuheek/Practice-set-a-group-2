@@ -158,7 +158,7 @@ p {
 
 .slide {
     position: relative;
-    right: 375px;
+    top: 375px;
     width: 375px;
     height: 2525px;
     animation: slide 0.5s forwards;
@@ -167,6 +167,6 @@ p {
 
 @keyframes slide {
     100% {
-        right: 0;
+        top: 0;
     }
 }
