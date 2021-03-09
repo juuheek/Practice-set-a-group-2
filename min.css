@@ -114,6 +114,10 @@ html, body{
   top: 264px;
   color: #26325B;
   z-index: 2;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande";
+  Font-style: Bold;
+  font-weight: 800;
+  Font-size: 36px;
 
 }
 
@@ -150,6 +154,10 @@ html, body{
   top: 264px;
   color: #26325B;
   z-index: 2;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande";
+  Font-style: Bold;
+  font-weight: 800;
+  Font-size: 36px;
 }
 
 #frame9header {
