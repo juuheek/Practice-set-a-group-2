@@ -8,7 +8,7 @@ html {
 .main {
     min-width: 415px;
     max-width: 415px;
-    min-height: 895px;
+    min-height: 896px;
     background-color: #C7EAFF;
     display: flex;
     flex-direction: column;
@@ -48,6 +48,6 @@ p {
 
 #backarrow {
     position: relative;
-    top: 150px;
-    left: 10px;
+    top: 155px;
+    left: 4px;
 }

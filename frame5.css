@@ -1,7 +1,7 @@
 body,
 html {
 
-
+    /* background-color: lightgrey; */
     display: flex;
     margin: 0;
     /* justify-content: center; */
@@ -31,6 +31,7 @@ html {
 
 #backarrow {
     position: relative;
-    right: 25px;
-    top: 35px;
+    right: 46px;
+    top: 57px;
+
 }
