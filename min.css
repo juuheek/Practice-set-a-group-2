@@ -81,6 +81,7 @@ html, body{
   top: 226px;
   width: 324px;
   height: 96px;
+  color: #26325B;
 
 }
 
@@ -97,6 +98,7 @@ html, body{
   top: 440px;
   width: 324px;
   height: 96px;
+  color: #26325B;
 
 }
 
@@ -173,6 +175,20 @@ html, body{
   left: 111px;
   top: 573px;
 
+}
+
+.slide {
+  position: relative;
+  right: 414px;
+  width: 414px;
+  animation: slide 1.5s forwards;
+  animation-delay: 0s;
+}
+
+@keyframes slide {
+  100% {
+      right: 0;
+  }
 }
 
 /* min end */
