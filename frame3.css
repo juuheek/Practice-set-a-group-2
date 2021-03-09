@@ -1,17 +1,14 @@
 body,
 html {
-    margin: 0;
-    display: flex;
+    margin: auto 0;
 }
 
 .main {
     background-color: #C7EAFF;
-    min-width: 416px;
-    max-width: 416px;
-    height: 896px;
+    width: 416px;
+    height: 920px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -77,5 +74,4 @@ p {
     position: relative;
     right: 190px;
     bottom: 315px;
-
 }
