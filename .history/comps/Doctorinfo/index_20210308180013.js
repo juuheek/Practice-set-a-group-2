@@ -20,8 +20,8 @@ function DoctorsUI(src="./imgs/doctor1.jpg", doctorheading="Kelty Eating Disorde
         margin: 5px;
   '>
     <img style='
-    width:60px;
-    height:60px;
+    width:50px;
+    height:50px;
         border-radius: 50%;
         height: 100%;
       
