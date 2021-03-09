@@ -42,6 +42,6 @@ function pinkButton (buttontext="Learn More", website="./frame2.html", margin) {
 }
 pinkButton.HandleClick = (el) => {
     el.style.opacity = 0.5;
-  
+    el.style.backgroundColor = red;
 }
 // export const Button = pinkButton(); 

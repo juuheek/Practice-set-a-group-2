@@ -1,5 +1,5 @@
-function backButton (text="GO BACK", src) {
-	return `
+function backButton(text = "GO BACK", src) {
+    return `
     <a style="
     text-decoration:none;
     color:black;
@@ -22,18 +22,22 @@ function backButton (text="GO BACK", src) {
     color: #FFF;
     font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
-    transtion:opacity 1s;
-    opacity:1;
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
     '
-    onmouseover="backButton.HandleClick(this)"
+
     type="button"> ${text} </button>
     </div>
     </a>
 `
 }
-backButton.HandleClick = (el) =>{
-    el.style.opacity = 0.5;
-}
+
 
 // export const Button2 = backButton(); 

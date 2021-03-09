@@ -35,13 +35,12 @@ function pinkButton (buttontext="Learn More", website="./frame2.html", margin) {
     transition: opacity 2s;
     opacity:1;
     '
-    onmouseover='pinkButton.HandleClick(this)'
+    onclick='pinkButton.HandleClick(this)'
     type="button">${buttontext}</button></a>
     </div>
 `
 }
 pinkButton.HandleClick = (el) => {
     el.style.opacity = 0.5;
-  
 }
 // export const Button = pinkButton(); 
