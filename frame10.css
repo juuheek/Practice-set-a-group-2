@@ -109,7 +109,7 @@ p {
     position: relative;
     right: 375px;
     width: 375px;
-    animation: slide 0.5s forwards;
+    animation: slide 1.5s forwards;
     animation-delay: 0s;
 }
 
