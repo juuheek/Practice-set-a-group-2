@@ -4,7 +4,19 @@ function pinkButton (buttontext="Learn More", website="./frame2.html", margin) {
     
     style='
 
+    div {
+        position: relative;
+        right: 414px;
+        width: 414px;
+        animation: slide 1.5s forwards;
+        animation-delay: 0s;
+    }
     
+    @keyframes div {
+        100% {
+            right: 0;
+        }
+    }
     justify-content: center;
     align-items: center;
     display: flex;
