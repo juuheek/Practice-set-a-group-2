@@ -155,8 +155,8 @@ p {
 
 .slide {
     position: relative;
-    right: 414px;
-    width: 414px;
+    right: 375px;
+    width: 375px;
     animation: slide 1.5s forwards;
     animation-delay: 0s;
 }
