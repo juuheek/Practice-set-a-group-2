@@ -105,7 +105,7 @@ p {
     left: 125px;
 }
 
-.anorexia img:hover {
+img:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
 }
@@ -157,11 +157,20 @@ p {
 }
 
 .slide {
-    position: relative;
-    right: 375px;
+    position: absolute;
+    right: 414px;
     width: 375px;
-    animation: slide 1.5s forwards;
+    height: 2525px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.5s forwards;
     animation-delay: 0s;
+}
+
+@-webkit-keyframes slide {
+    100% {
+        right: 90;
+    }
 }
 
 @keyframes slide {
