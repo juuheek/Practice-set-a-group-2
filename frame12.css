@@ -8,9 +8,9 @@ body {
 #main {
     margin: 0;
     display: flex;
-    min-width: 414px;
-    max-width: 414px;
-    min-height: 2525px;
+    min-width: 375px;
+    max-width: 375px;
+    min-height: 2750px;
     background-color: #FFA29E;
     flex-direction: column;
 }
@@ -100,4 +100,16 @@ p {
     position: relative;
     top: 125px;
     left: 125px;
+}
+
+.slide {
+    position: relative;
+    right: 375px;
+    width: 375px;
+    animation: slide 1.5s forwards;
+    animation-delay: 0s;
+}
+
+@keyframes slide {
+    100% { right: 0; }
 }
