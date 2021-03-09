@@ -27,7 +27,7 @@ function backButton (text="GO BACK", src) {
 
     '
     onmouseover="backButton.HandleClick(this)"
-    onmouseout="backButton.Handleout(this)"
+    onmouseout="backbutton.Handleout(this)"
     type="button"> ${text} </button>
     </div>
     </a>
@@ -35,10 +35,6 @@ function backButton (text="GO BACK", src) {
 }
 backButton.HandleClick = (el) =>{
     el.style.opacity = 0.5;
-}
-
-backButton.Handleout = (el) =>{
-    el.style.opacity = 1;
 }
 
 // export const Button2 = backButton(); 
